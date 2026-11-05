@@ -1,0 +1,95 @@
+{
+  "noise": "additive_white_gaussian",
+  "levels_db": [
+    20.0,
+    10.0,
+    5.0,
+    0.0,
+    -5.0
+  ],
+  "repeats": 3,
+  "seed": 20261006,
+  "reference": "original recording power, not isolated drone power",
+  "clipping": false,
+  "renormalization": false,
+  "training_augmented": false,
+  "paired_noise_across_models_and_levels": true,
+  "noise_profiles_frozen": true,
+  "folds": [
+    {
+      "fold": 0,
+      "noise_file_ids": [
+        11,
+        12,
+        13
+      ],
+      "noise_files": [
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260831_124300_no_drone..wav",
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260831_145202_no_drone.wav",
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260914_160710_no_drone.wav"
+      ],
+      "test_file_ids": [
+        0,
+        2,
+        9,
+        14
+      ]
+    },
+    {
+      "fold": 1,
+      "noise_file_ids": [
+        11,
+        12,
+        14
+      ],
+      "noise_files": [
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260831_124300_no_drone..wav",
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260831_145202_no_drone.wav",
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260914_161130_no_drone.wav"
+      ],
+      "test_file_ids": [
+        3,
+        4,
+        8,
+        13
+      ]
+    },
+    {
+      "fold": 2,
+      "noise_file_ids": [
+        11,
+        13,
+        14
+      ],
+      "noise_files": [
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260831_124300_no_drone..wav",
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260914_160710_no_drone.wav",
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260914_161130_no_drone.wav"
+      ],
+      "test_file_ids": [
+        1,
+        6,
+        7,
+        12
+      ]
+    },
+    {
+      "fold": 3,
+      "noise_file_ids": [
+        12,
+        13,
+        14
+      ],
+      "noise_files": [
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260831_145202_no_drone.wav",
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260914_160710_no_drone.wav",
+        "C:\\Users\\alche\\OneDrive\\Desktop\\Work\\repodron\\New folder\\no_dron\\audio_20260914_161130_no_drone.wav"
+      ],
+      "test_file_ids": [
+        5,
+        10,
+        11
+      ]
+    }
+  ]
+}

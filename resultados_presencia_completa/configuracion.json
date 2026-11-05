@@ -1,0 +1,14 @@
+{
+  "labels": "carpetas completas confirmadas por usuario",
+  "channel": 0,
+  "window_s": 2.0,
+  "hop_s": 2.0,
+  "sample_rate": 44100,
+  "group_overrides": {},
+  "seed": 42,
+  "features": "Hann32ms-hop10ms-HTK64-DCT20-excludeC0-mean-std",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.0",
+  "python": "3.11.9",
+  "warning": "Presencia física indicada por usuario; audibilidad variable; solo dos grabaciones negativas."
+}
